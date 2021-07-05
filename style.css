@@ -8,7 +8,7 @@ body{
     font-size: 90px;
     color: rgb(15, 132, 179);
 }
-#another-name{
+.another-name{
     text-decoration: none;
     color: whitesmoke;
     background-color: palevioletred;
@@ -25,17 +25,27 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .paragragh{
     color: rgb(51, 95, 151);
     font-weight: 600;
     text-align: justify;
 }
-#visiting-site{
+.visiting-site{
     text-decoration: none;
     background-image: linear-gradient(royalblue,blue);
     color: white;
     border-radius: 20px;
     padding: 10px 20px;
     font-weight: bolder;
+}
+.second-banner{
+    background-image: url(images/3rdpic.jpg);
+    background-position-y: left;
+
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
 }
