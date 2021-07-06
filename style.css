@@ -45,7 +45,59 @@ section{
 
 
 }
+.second-name{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    color: rgb(15, 132, 179);
+}
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
+}
+.blue-color{
+    color: rgba(42, 42, 199, 0.808);
+    font-weight: bolder;
+}
+.food-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    padding: 60px 70px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 25px;
+    text-align: justify;
+}
+.food-item img{
+        width: 70%;
+}
+.resize{
+    width: 150%;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+}
+#description{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    background-color: honeydew;
+}
+.row{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 1.5%;
+    padding: 60px 70px;
+    box-shadow: 10px 10px 20px rgba(161, 156, 156, 0.904);
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.column{
+    float: left;
+    width: 33.3334%;
+    text-align: center;
 }
